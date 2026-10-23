@@ -26,11 +26,9 @@ jobs:
         working-directory: "miniboss-timer 3.0"
         run: gradle build
 
-
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
           name: miniboss-timer-jar
           path: "miniboss-timer 3.0/build/libs/*.jar"
-            **/build/libs/*.jar
           if-no-files-found: error
