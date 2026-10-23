@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "miniboss_timer",
+  "version": "${version}",
+  "name": "MiniBoss Timer",
+  "description": "Affiche le temps de respawn des mini-boss (et le serveur) quand on en tue un.",
+  "authors": ["Toi"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["fr.minibosstimer.MiniBossTimerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
